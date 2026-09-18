@@ -1,11 +1,11 @@
 {
-  "name": "CampusMesh",
-  "short_name": "CampusMesh",
+  "name": "NexaLink",
+  "short_name": "NexaLink",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#111317",
   "theme_color": "#111317",
-  "description": "CampusMesh - Decentralized P2P Academic Network",
+  "description": "NexaLink - Decentralized P2P Academic Network",
   "orientation": "portrait-primary",
   "prefer_related_applications": false,
   "icons": [

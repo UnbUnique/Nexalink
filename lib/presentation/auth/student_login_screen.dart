@@ -284,7 +284,7 @@ class _StudentLoginScreenState extends State<StudentLoginScreen> {
                   ),
                   const SizedBox(height: 16),
 
-                  // Enter Campus Mesh Button
+                  // Enter NexaLink Button
                   SizedBox(
                     width: double.infinity,
                     height: 50,
@@ -304,7 +304,7 @@ class _StudentLoginScreenState extends State<StudentLoginScreen> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            'Enter Campus Mesh',
+                            'Enter NexaLink',
                             style: AppTypography.headlineSm.copyWith(
                               color: AppColors.onSecondaryFixed,
                               fontSize: 16,

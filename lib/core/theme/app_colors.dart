@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-/// CampusMesh Color System derived strictly from DESIGN.md
+/// NexaLink Color System derived strictly from DESIGN.md
 class AppColors {
   AppColors._();
 

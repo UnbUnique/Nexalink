@@ -74,7 +74,7 @@ class MockData {
           id: 'ann-1',
           title: 'Lab 4 Shifted to Offline Peer Mode',
           body:
-              'Reminder: Today\'s lab on Red-Black trees has been shifted to offline peer collaboration mode due to campus Wi-Fi maintenance. Make sure your CampusMesh daemon is synced before entering Hall B.',
+              'Reminder: Today\'s lab on Red-Black trees has been shifted to offline peer collaboration mode due to campus Wi-Fi maintenance. Make sure your NexaLink daemon is synced before entering Hall B.',
           authorName: 'Prof. Alan Turing',
           authorInitials: 'AT',
           classCode: 'CS 301',
@@ -278,7 +278,7 @@ class MockData {
         ),
         ChatThread(
           id: 'thread-relay4',
-          peerName: 'Campus Mesh Relay 4',
+          peerName: 'NexaLink Relay 4',
           initials: 'R4',
           lastMessage:
               'Packet transfer complete: 14 nodes synchronized successfully.',

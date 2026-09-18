@@ -1,4 +1,4 @@
-package com.campusmesh.nearby.model
+package com.nexalink.nearby.model
 
 /**
  * Represents the current connection state of a nearby peer device.

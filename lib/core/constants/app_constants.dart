@@ -20,7 +20,7 @@ enum AnnouncementUrgency {
 class AppConstants {
   AppConstants._();
 
-  static const String appName = 'CampusMesh';
+  static const String appName = 'NexaLink';
   static const String appSubtitle = 'Decentralized Academic Network';
   static const String defaultMeshNodeId = '#mesh-8821-x';
   static const String localKey = '#8F2A';

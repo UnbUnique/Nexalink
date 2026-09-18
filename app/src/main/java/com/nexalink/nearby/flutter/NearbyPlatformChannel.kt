@@ -1,8 +1,8 @@
-package com.campusmesh.nearby.flutter
+package com.nexalink.nearby.flutter
 
 import android.content.Context
-import com.campusmesh.nearby.NearbyManager
-import com.campusmesh.nearby.model.NearbyEvent
+import com.nexalink.nearby.NearbyManager
+import com.nexalink.nearby.model.NearbyEvent
 import io.flutter.plugin.common.BinaryMessenger
 import io.flutter.plugin.common.EventChannel
 import io.flutter.plugin.common.MethodCall
@@ -26,11 +26,11 @@ class NearbyPlatformChannel(
 ) : MethodChannel.MethodCallHandler {
 
     companion object {
-        const val METHOD_CHANNEL = "com.campusmesh/nearby_methods"
-        const val EVENT_DEVICES_CHANNEL = "com.campusmesh/nearby_discovered"
-        const val EVENT_PEERS_CHANNEL = "com.campusmesh/nearby_peers"
-        const val EVENT_MESSAGES_CHANNEL = "com.campusmesh/nearby_messages"
-        const val EVENT_NOTIFICATIONS_CHANNEL = "com.campusmesh/nearby_events"
+        const val METHOD_CHANNEL = "com.nexalink/nearby_methods"
+        const val EVENT_DEVICES_CHANNEL = "com.nexalink/nearby_discovered"
+        const val EVENT_PEERS_CHANNEL = "com.nexalink/nearby_peers"
+        const val EVENT_MESSAGES_CHANNEL = "com.nexalink/nearby_messages"
+        const val EVENT_NOTIFICATIONS_CHANNEL = "com.nexalink/nearby_events"
     }
 
     private val scope = CoroutineScope(Dispatchers.Main + Job())
@@ -122,7 +122,7 @@ class NearbyPlatformChannel(
     override fun onMethodCall(call: MethodCall, result: MethodChannel.Result) {
         when (call.method) {
             "startAdvertising" -> {
-                val name = call.argument<String>("name") ?: "CampusPeer"
+                val name = call.argument<String>("name") ?: "NexaPeer"
                 nearbyManager.startAdvertising(name)
                 result.success(true)
             }

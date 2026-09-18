@@ -1,4 +1,4 @@
-package com.campusmesh.nearby.model
+package com.nexalink.nearby.model
 
 /**
  * Represents a peer with whom a connection has been initiated or established.

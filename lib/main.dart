@@ -16,7 +16,7 @@ void main() {
         ChangeNotifierProvider(create: (_) => MessageState()),
         ChangeNotifierProvider(create: (_) => BroadcastState()),
       ],
-      child: const CampusMeshApp(),
+      child: const NexaLinkApp(),
     ),
   );
 }

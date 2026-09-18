@@ -1,4 +1,4 @@
-package com.campusmesh.nearby.model
+package com.nexalink.nearby.model
 
 /**
  * Observable one-time events for UI notifications (Snackbars, Toasts, Dialogs).

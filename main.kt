@@ -1,4 +1,4 @@
-package com.yourpackage.campusmesh.models
+package com.yourpackage.nexalink.models
 
 import org.json.JSONObject
 import java.util.UUID

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'app_colors.dart';
 
-/// CampusMesh Typography strictly mapped from DESIGN.md
+/// NexaLink Typography strictly mapped from DESIGN.md
 class AppTypography {
   AppTypography._();
 

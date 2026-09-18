@@ -13,19 +13,19 @@ class NearbyService {
   NearbyService._internal();
 
   static const MethodChannel _methods =
-      MethodChannel('com.campusmesh/nearby_methods');
+      MethodChannel('com.nexalink/nearby_methods');
 
   static const EventChannel _discoveredChannel =
-      EventChannel('com.campusmesh/nearby_discovered');
+      EventChannel('com.nexalink/nearby_discovered');
 
   static const EventChannel _peersChannel =
-      EventChannel('com.campusmesh/nearby_peers');
+      EventChannel('com.nexalink/nearby_peers');
 
   static const EventChannel _messagesChannel =
-      EventChannel('com.campusmesh/nearby_messages');
+      EventChannel('com.nexalink/nearby_messages');
 
   static const EventChannel _eventsChannel =
-      EventChannel('com.campusmesh/nearby_events');
+      EventChannel('com.nexalink/nearby_events');
 
   // Broadcast streams for UI widgets to listen to
   Stream<List<DiscoveredDevice>>? _discoveredStream;

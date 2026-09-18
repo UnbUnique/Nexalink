@@ -1,13 +1,13 @@
-package com.campusmesh.nearby
+package com.nexalink.nearby
 
 import android.content.Context
 import android.util.Log
-import com.campusmesh.nearby.model.ChatMessage
-import com.campusmesh.nearby.model.ConnectionState
-import com.campusmesh.nearby.model.DiscoveredDevice
-import com.campusmesh.nearby.model.NearbyEvent
-import com.campusmesh.nearby.model.PeerDevice
-import com.campusmesh.nearby.permission.NearbyPermissions
+import com.nexalink.nearby.model.ChatMessage
+import com.nexalink.nearby.model.ConnectionState
+import com.nexalink.nearby.model.DiscoveredDevice
+import com.nexalink.nearby.model.NearbyEvent
+import com.nexalink.nearby.model.PeerDevice
+import com.nexalink.nearby.permission.NearbyPermissions
 import com.google.android.gms.nearby.Nearby
 import com.google.android.gms.nearby.connection.AdvertisingOptions
 import com.google.android.gms.nearby.connection.ConnectionInfo
@@ -56,8 +56,8 @@ class NearbyManager(
     var autoAcceptConnections: Boolean = true
 ) {
     companion object {
-        private const val TAG = "CampusMeshNearby"
-        const val DEFAULT_SERVICE_ID = "com.campusmesh.app"
+        private const val TAG = "NexaLinkNearby"
+        const val DEFAULT_SERVICE_ID = "com.nexalink.app"
 
         /**
          * Strategy.P2P_CLUSTER supports an M-to-N cluster (mesh-like) topology where any device
@@ -73,7 +73,7 @@ class NearbyManager(
     private val managerScope = CoroutineScope(SupervisorJob() + Dispatchers.Default)
 
     // Current local advertised device name (e.g., "Alice's Phone")
-    private var localDeviceName: String = "CampusPeer"
+    private var localDeviceName: String = "NexaPeer"
 
     // -------------------------------------------------------------------------
     // Observable UI State (Jetpack Compose / Flutter Platform Channel Ready)
@@ -122,7 +122,7 @@ class NearbyManager(
             return
         }
 
-        localDeviceName = deviceName.trim().ifEmpty { "CampusPeer" }
+        localDeviceName = deviceName.trim().ifEmpty { "NexaPeer" }
 
         val advertisingOptions = AdvertisingOptions.Builder()
             .setStrategy(STRATEGY)

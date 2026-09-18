@@ -1,4 +1,4 @@
-package com.campusmesh.nearby.permission
+package com.nexalink.nearby.permission
 
 import android.Manifest
 import android.bluetooth.BluetoothManager

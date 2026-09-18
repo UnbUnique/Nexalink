@@ -1,6 +1,6 @@
-package com.campusmesh.nearby
+package com.nexalink.nearby
 
-import com.campusmesh.nearby.flutter.NearbyPlatformChannel
+import com.nexalink.nearby.flutter.NearbyPlatformChannel
 import io.flutter.embedding.android.FlutterActivity
 import io.flutter.embedding.engine.FlutterEngine
 

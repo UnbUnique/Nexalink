@@ -1,8 +1,8 @@
-# CampusMesh 📡📱
+# NexaLink 📡📱
 
 > **Offline Peer-to-Peer Academic Communication Layer & Mobile Application**
 
-**CampusMesh** is an offline-first, decentralized peer-to-peer (P2P) academic communication application designed for students and faculty. It enables seamless offline classroom communication, encrypted chat threads, professor broadcast logs, mesh topology visualization with real-time radar, active course channel handover, and emergency safety overrides without requiring internet connectivity.
+**NexaLink** is an offline-first, decentralized peer-to-peer (P2P) academic communication application designed for students and faculty. It enables seamless offline classroom communication, encrypted chat threads, professor broadcast logs, mesh topology visualization with real-time radar, active course channel handover, and emergency safety overrides without requiring internet connectivity.
 
 Under the hood, it uses Google Nearby Connections (`Strategy.P2P_CLUSTER`) across Wi-Fi Direct and Bluetooth Low Energy, coupled with a high-fidelity Flutter frontend.
 
@@ -27,7 +27,7 @@ Under the hood, it uses Google Nearby Connections (`Strategy.P2P_CLUSTER`) acros
 
 ## 🎨 Design System
 
-Mapped strictly from `campusmesh_design_system/DESIGN.md`:
+Mapped strictly from `stitch_campusmesh_ui_prototype/campusmesh_design_system/DESIGN.md`:
 - **Canvas / Surface**: `#111317` (Deep OLED black)
 - **Elevations**: `#1A1C1F` (low), `#1E2023` (container), `#282A2D` (high), `#333538` (highest)
 - **Primary**: `#D0BCFF` (Electric Purple)
@@ -40,7 +40,7 @@ Mapped strictly from `campusmesh_design_system/DESIGN.md`:
 
 ## 📂 Repository Structure
 
-- `app/src/main/java/com/campusmesh/nearby/`: Native Android Nearby communication layer
+- `app/src/main/java/com/nexalink/nearby/`: Native Android Nearby communication layer
   - `NearbyManager.kt`: Core offline communication engine (advertising, discovery, messaging).
   - `model/`: Data models (`ChatMessage`, `PeerDevice`, `DiscoveredDevice`, `ConnectionState`, `NearbyEvent`).
   - `permission/NearbyPermissions.kt`: Runtime permissions helper & hardware radio pre-checks.

@@ -1,4 +1,4 @@
-package com.campusmesh.nearby.model
+package com.nexalink.nearby.model
 
 import java.util.UUID
 

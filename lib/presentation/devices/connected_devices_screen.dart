@@ -68,7 +68,7 @@ class ConnectedDevicesScreen extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              'CampusMesh Core',
+                              'NexaLink Core',
                               style: AppTypography.headlineSm.copyWith(
                                 fontSize: 16,
                                 fontWeight: FontWeight.bold,

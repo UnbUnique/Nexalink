@@ -9,8 +9,8 @@ import 'presentation/auth/student_login_screen.dart';
 import 'presentation/auth/teacher_login_screen.dart';
 import 'presentation/main_shell.dart';
 
-class CampusMeshApp extends StatelessWidget {
-  const CampusMeshApp({super.key});
+class NexaLinkApp extends StatelessWidget {
+  const NexaLinkApp({super.key});
 
   @override
   Widget build(BuildContext context) {
