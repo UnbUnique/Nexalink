@@ -1,0 +1,18 @@
+{
+  "name": "CampusMesh",
+  "short_name": "CampusMesh",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#111317",
+  "theme_color": "#111317",
+  "description": "CampusMesh - Decentralized P2P Academic Network",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icons/Icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
